@@ -4007,6 +4007,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Bombe: {fileID: 7617572476483977282, guid: 353ccdee8d1fb8a48bdce28f609373aa, type: 3}
   origine: {fileID: 79202456}
+  nbBombes: 4
 --- !u!136 &1863107855
 CapsuleCollider:
   m_ObjectHideFlags: 0

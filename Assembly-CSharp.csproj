@@ -60,6 +60,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Bombe.cs" />
     <Compile Include="Assets\Player.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/steve/Desktop/Projet_DevB2/Bomberman/Bomberboy/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
