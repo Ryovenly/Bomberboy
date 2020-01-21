@@ -4,46 +4,68 @@ using UnityEngine;
 
 public class Bombe : MonoBehaviour
 {
+
+    public LayerMask Wall;
+
+    public GameObject Explosion;
     // Start is called before the first frame update
     void Start()
     {
+            Invoke("Explode", 3f);
 
     }
 
     // Update is called once per frame
+
+    void Explode()
+    {
+        Instantiate(Explosion, transform.position, Quaternion.identity);
+
+        StartCoroutine(CreateExplosions(Vector3.forward));
+        StartCoroutine(CreateExplosions(Vector3.right));
+        StartCoroutine(CreateExplosions(Vector3.back));
+        StartCoroutine(CreateExplosions(Vector3.left));
+
+        GetComponent<MeshRenderer>().enabled = false; 
+        transform.Find("Collider").gameObject.SetActive(false);
+
+    }
+
+
     void Update()
     {
-        // Bit shift the index of the layer (8) to get a bit mask
-        int layerMask = 1 << 8;
-
-        // This would cast rays only against colliders in layer 8.
-        // But instead we want to collide against everything except layer 8. The ~ operator does this, it inverts a bitmask.
-        layerMask = ~layerMask;
-
-        RaycastHit hit;
-        // Does the ray intersect any objects excluding the player layer
-        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity, layerMask))
-        {
-            Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * hit.distance, Color.yellow);
-            Debug.Log("Did Hit");
-        }
-        else
-        {
-            Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * 10, Color.white);
-            Debug.Log("Did not Hit");
-        }
-    
-    Destroy(gameObject, 4);
+        Destroy(gameObject, 3f);
     }
 
-    void FixedUpdate()
+
+
+
+    private IEnumerator CreateExplosions(Vector3 direction)
     {
-        Vector3 fwd = transform.TransformDirection(Vector3.forward);
 
-        if (Physics.Raycast(transform.position, fwd, 10))
-            Debug.Log("There is something in front of the object!");
+        for (int i = 1; i < 5; i++)
+        {
 
+            RaycastHit hit;
+            
+            Physics.Raycast(transform.position + new Vector3(0, 5f, 0), direction, out hit,
+              i);
+
+            
+            if (!hit.collider)
+            {
+                Instantiate(Explosion, transform.position + (i * direction),
+
+                  Explosion.transform.rotation);
+               
+            }
+            else
+            {
+                break;
+            }
+
+            yield return new WaitForSeconds(.05f);
+        }
 
     }
-
 }

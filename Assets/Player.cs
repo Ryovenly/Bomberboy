@@ -43,11 +43,13 @@ public class Player : MonoBehaviour
         }
  
 
-
+        // On pose la bombe
             if (Input.GetKeyDown(KeyCode.T) && Bombes <= nbBombes)
         {
             Rigidbody instance;
-          instance = Instantiate(Bombe, origine.position, origine.rotation) as Rigidbody;
+          instance = Instantiate(Bombe, new Vector3(Mathf.RoundToInt(origine.position.x),
+          Bombe.transform.position.y, Mathf.RoundToInt(origine.position.z)),
+          Bombe.transform.rotation) as Rigidbody;
         }
     }
 }
