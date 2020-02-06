@@ -1,0 +1,235 @@
+fileFormatVersion: 2
+guid: 2fe936e6960a17f4387bf6bdd6954160
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armature
+    100002: bom_pos
+    100004: C_head
+    100006: C_hip
+    100008: C_neduke
+    100010: C_neduke_1
+    100012: C_spine
+    100014: C_waist
+    100016: face1
+    100018: face1 1
+    100020: face1Pos
+    100022: face2
+    100024: face2 1
+    100026: face2Pos
+    100028: face3
+    100030: face3 1
+    100032: face3Pos
+    100034: face4
+    100036: face4 1
+    100038: face4Pos
+    100040: face5
+    100042: face5 1
+    100044: face5Pos
+    100046: face6
+    100048: face6 1
+    100050: face6Pos
+    100052: face7
+    100054: face7 1
+    100056: face7Pos
+    100058: face8
+    100060: face8 1
+    100062: face8Pos
+    100064: face9
+    100066: face9 1
+    100068: face9Pos
+    100070: knot_root
+    100072: L_elbow
+    100074: L_foot
+    100076: L_hand
+    100078: L_knee
+    100080: L_leg
+    100082: L_shoulder
+    100084: L_toe
+    100086: mesh_pc004_red_body
+    100088: mesh_pc004_red_face
+    100090: //RootNode
+    100092: model_pc004_red
+    100094: R_elbow
+    100096: R_foot
+    100098: R_hand
+    100100: R_knee
+    100102: R_leg
+    100104: R_shoulder
+    100106: R_toe
+    100108: reference
+    100110: top_knot
+    100112: top_rod
+    400000: Armature
+    400002: bom_pos
+    400004: C_head
+    400006: C_hip
+    400008: C_neduke
+    400010: C_neduke_1
+    400012: C_spine
+    400014: C_waist
+    400016: face1
+    400018: face1 1
+    400020: face1Pos
+    400022: face2
+    400024: face2 1
+    400026: face2Pos
+    400028: face3
+    400030: face3 1
+    400032: face3Pos
+    400034: face4
+    400036: face4 1
+    400038: face4Pos
+    400040: face5
+    400042: face5 1
+    400044: face5Pos
+    400046: face6
+    400048: face6 1
+    400050: face6Pos
+    400052: face7
+    400054: face7 1
+    400056: face7Pos
+    400058: face8
+    400060: face8 1
+    400062: face8Pos
+    400064: face9
+    400066: face9 1
+    400068: face9Pos
+    400070: knot_root
+    400072: L_elbow
+    400074: L_foot
+    400076: L_hand
+    400078: L_knee
+    400080: L_leg
+    400082: L_shoulder
+    400084: L_toe
+    400086: mesh_pc004_red_body
+    400088: mesh_pc004_red_face
+    400090: model_pc004_red
+    400092: //RootNode
+    400094: R_elbow
+    400096: R_foot
+    400098: R_hand
+    400100: R_knee
+    400102: R_leg
+    400104: R_shoulder
+    400106: R_toe
+    400108: reference
+    400110: top_knot
+    400112: top_rod
+    2100000: mat_p004_red_face_001
+    2100002: mat_p004_red_knot_001
+    2100004: mat_p004_red_body_001
+    4300000: face4
+    4300002: face8
+    4300004: face3
+    4300006: mesh_pc004_red_face
+    4300008: face1
+    4300010: face6
+    4300012: face9
+    4300014: face7
+    4300016: face5
+    4300018: face2
+    4300020: top_knot
+    4300022: mesh_pc004_red_body
+    4300024: top_rod
+    9500000: //RootNode
+    13700000: face1
+    13700002: face2
+    13700004: face3
+    13700006: face4
+    13700008: face5
+    13700010: face6
+    13700012: face7
+    13700014: face8
+    13700016: face9
+    13700018: mesh_pc004_red_body
+    13700020: mesh_pc004_red_face
+    13700022: top_knot
+    13700024: top_rod
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

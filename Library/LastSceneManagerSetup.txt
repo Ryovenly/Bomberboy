@@ -1,4 +1,10 @@
 sceneSetups:
-- path: Assets/Scenes/Steven.unity
+- path: Assets/Scenes/Principal scene.unity
   isLoaded: 1
   isActive: 1
+- path: Assets/Scenes/Menu Pause.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Scenes/Controls.unity
+  isLoaded: 0
+  isActive: 0
