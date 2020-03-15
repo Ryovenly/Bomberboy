@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class blocDestroy : MonoBehaviour
 {
-    public Rigidbody Bombe;
-    private Rigidbody instance;
+    // private int randomNumber = Random.Range(0, 2);
 
     void Start()
     {
@@ -16,7 +15,13 @@ public class blocDestroy : MonoBehaviour
     {
         if (collider.gameObject.tag == "Explosion")
         {
+            GenerateBonusAndMalus();
             Destroy(gameObject);
         }
+    }
+
+    public void GenerateBonusAndMalus()
+    {
+        
     }
 }
