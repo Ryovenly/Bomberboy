@@ -1,4 +1,16 @@
 sceneSetups:
-- path: Assets/Scenes/Steven.unity
+- path: Assets/Scenes/Controls.unity
   isLoaded: 1
   isActive: 1
+- path: Assets/Scenes/DesertMap.unity
+  isLoaded: 1
+  isActive: 0
+- path: Assets/Scenes/Map Choice.unity
+  isLoaded: 1
+  isActive: 0
+- path: Assets/Scenes/Menu Pause.unity
+  isLoaded: 1
+  isActive: 0
+- path: Assets/Scenes/Principal Menu.unity
+  isLoaded: 1
+  isActive: 0
