@@ -1,4 +1,22 @@
 sceneSetups:
-- path: Assets/Scenes/Steven.unity
+- path: Assets/Scenes/ControlsBomberboy1.unity
   isLoaded: 1
   isActive: 1
+- path: Assets/Scenes/Map Choice.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Scenes/Menu Pause.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Scenes/Principal Menu.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Scenes/DesertMap.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Scenes/IceMap.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Scenes/Victory.unity
+  isLoaded: 0
+  isActive: 0

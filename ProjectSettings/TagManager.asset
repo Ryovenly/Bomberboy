@@ -7,6 +7,12 @@ TagManager:
   - bombe
   - Explosion
   - Breakable
+  tags:
+  - Explosion
+  - bombe
+  - bomberboy
+  - blach hole
+  - Fatal
   layers:
   - Default
   - TransparentFX
