@@ -1,7 +1,10 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
+using UnityEngine.UI;
+using System.Globalization;
+using System;
 
 public class PutBomb : MonoBehaviour
 {
@@ -11,13 +14,17 @@ public class PutBomb : MonoBehaviour
     public Transform origine;
     public int nbBombes = 2;
     private int Bombes;
-    public UnityEngine.KeyCode putBomb;
     private Animator Anim;
+    public string player;
+    private string controlPutBomb;
+    public string[] playerData;
+    private string data;
 
     // Start is called before the first frame update
     void Start()
     {
         Anim = GetComponent<Animator>();
+        StartCoroutine(GetData());
     }
 
     // Update is called once per frame
@@ -36,14 +43,35 @@ public class PutBomb : MonoBehaviour
         }
 
         // On pose la bombe
-        if (Input.GetKeyDown(putBomb) && Bombes <= nbBombes)
+        if (controlPutBomb != null)
         {
-            Anim.SetBool("puttingBomb", true);
-            StartCoroutine(waitALittle(Anim.GetCurrentAnimatorStateInfo(0).length));
-            Rigidbody instance;
-            instance = Instantiate(Bombe, new Vector3(Mathf.RoundToInt(origine.position.x),
-            Bombe.transform.position.y, Mathf.RoundToInt(origine.position.z)),
-            Bombe.transform.rotation) as Rigidbody;
+            if (Input.GetKey(controlPutBomb) && Bombes <= nbBombes)
+            {
+                Anim.SetBool("puttingBomb", true);
+                StartCoroutine(waitALittle(Anim.GetCurrentAnimatorStateInfo(0).length));
+                Rigidbody instance;
+                instance = Instantiate(Bombe, new Vector3(Mathf.RoundToInt(origine.position.x),
+                Bombe.transform.position.y, Mathf.RoundToInt(origine.position.z)),
+                Bombe.transform.rotation) as Rigidbody;
+            }
+        }
+    }
+    IEnumerator GetData()
+    {
+        UnityWebRequest uwr = UnityWebRequest.Get("http://localhost:8000/getData?player=" + player);
+        yield return uwr.SendWebRequest();
+
+        if (uwr.isNetworkError || uwr.isHttpError)
+        {
+            Debug.Log(uwr.error);
+        }
+        else
+        {
+            data = uwr.downloadHandler.text;
+
+            playerData = data.Split('à');
+
+            controlPutBomb = playerData[5];
         }
     }
 

@@ -74,12 +74,16 @@
     <Compile Include="Assets\Scripts\death.cs" />
     <Compile Include="Assets\Scripts\Destroy.cs" />
     <Compile Include="Assets\Scripts\ExitGame.cs" />
+    <Compile Include="Assets\Scripts\Input\changeScenePlayer.cs" />
     <Compile Include="Assets\Scripts\Input\InputControl.cs" />
     <Compile Include="Assets\Scripts\Input\InputWrapper.cs" />
     <Compile Include="Assets\Scripts\Input\VirtualInput.cs" />
     <Compile Include="Assets\Scripts\ModePause.cs" />
     <Compile Include="Assets\Scripts\Move.cs" />
-    <Compile Include="Assets\Scripts\Network\network.cs" />
+    <Compile Include="Assets\Scripts\Network\connectionBdd.cs" />
+    <Compile Include="Assets\Scripts\Network\getControl.cs" />
+    <Compile Include="Assets\Scripts\Network\keys.cs" />
+    <Compile Include="Assets\Scripts\PositionCamera.cs" />
     <Compile Include="Assets\Scripts\PutBomb.cs" />
     <Compile Include="Assets\Scripts\TelepBH.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
