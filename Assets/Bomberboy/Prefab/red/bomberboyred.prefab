@@ -2187,6 +2187,7 @@ GameObject:
   - component: {fileID: 4905499317884907663}
   - component: {fileID: 4905499317884907656}
   - component: {fileID: 4905499317884907657}
+  - component: {fileID: 114885438992948786}
   m_Layer: 0
   m_Name: bomberboyred
   m_TagString: bomberboy
@@ -2298,10 +2299,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   translation: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0}
-  up: 0
-  down: 0
-  left: 0
-  right: 0
+  playerData: []
+  player: 
 --- !u!114 &4905499317884907656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2317,7 +2316,8 @@ MonoBehaviour:
   Bombe: {fileID: 7617572476483977282, guid: 353ccdee8d1fb8a48bdce28f609373aa, type: 3}
   origine: {fileID: 4905499319102050584}
   nbBombes: 3
-  putBomb: 0
+  player: 
+  playerData: []
 --- !u!114 &4905499317884907657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2330,6 +2330,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25ba29dd9f26f0f458c5b9244bdb242e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LevelToLoad: 
+--- !u!114 &114885438992948786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4905499319101558078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10a5247617d6b754eb8062121bc6daa6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firePower: 2
+  bomb: 2
 --- !u!1 &4905499319101558112
 GameObject:
   m_ObjectHideFlags: 0

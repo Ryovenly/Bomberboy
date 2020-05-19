@@ -119,6 +119,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -179,11 +194,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (48)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -194,6 +204,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -253,11 +278,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsTrigger
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (46)
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -347,7 +367,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400034, guid: 0e92e23b4e259334caeb36acd599f0ac, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 400034, guid: 0e92e23b4e259334caeb36acd599f0ac, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -386,6 +406,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -446,11 +481,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (25)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -505,6 +535,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Border Wall (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689063, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}
@@ -582,6 +617,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -642,11 +692,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (50)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -657,6 +702,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1798167983288126840, guid: 7c5c56b86fd4f5d4d9a6950ec74d4639,
+        type: 3}
+      propertyPath: m_Name
+      value: bomberboy
+      objectReference: {fileID: 0}
     - target: {fileID: 1798167982356426953, guid: 7c5c56b86fd4f5d4d9a6950ec74d4639,
         type: 3}
       propertyPath: up
@@ -730,7 +780,7 @@ PrefabInstance:
     - target: {fileID: 1798167983287767390, guid: 7c5c56b86fd4f5d4d9a6950ec74d4639,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1798167983287767390, guid: 7c5c56b86fd4f5d4d9a6950ec74d4639,
         type: 3}
@@ -747,11 +797,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1798167983288126840, guid: 7c5c56b86fd4f5d4d9a6950ec74d4639,
-        type: 3}
-      propertyPath: m_Name
-      value: bomberboy
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c5c56b86fd4f5d4d9a6950ec74d4639, type: 3}
 --- !u!1001 &272938548
@@ -761,6 +806,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -821,11 +881,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (42)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -876,6 +931,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -936,11 +1006,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (30)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -991,6 +1056,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1051,11 +1131,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (28)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -1099,6 +1174,75 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1001 &314729879
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 9058635274427181303, guid: 28fc692b85104f24f83e30ce0acce749,
+        type: 3}
+      propertyPath: m_Name
+      value: FireBonus (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9058635274427181298, guid: 28fc692b85104f24f83e30ce0acce749,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.508711
+      objectReference: {fileID: 0}
+    - target: {fileID: 9058635274427181298, guid: 28fc692b85104f24f83e30ce0acce749,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 9058635274427181298, guid: 28fc692b85104f24f83e30ce0acce749,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 9058635274427181298, guid: 28fc692b85104f24f83e30ce0acce749,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9058635274427181298, guid: 28fc692b85104f24f83e30ce0acce749,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9058635274427181298, guid: 28fc692b85104f24f83e30ce0acce749,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9058635274427181298, guid: 28fc692b85104f24f83e30ce0acce749,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9058635274427181298, guid: 28fc692b85104f24f83e30ce0acce749,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9058635274427181298, guid: 28fc692b85104f24f83e30ce0acce749,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9058635274427181298, guid: 28fc692b85104f24f83e30ce0acce749,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9058635274427181298, guid: 28fc692b85104f24f83e30ce0acce749,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 28fc692b85104f24f83e30ce0acce749, type: 3}
 --- !u!1001 &327164594
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1106,6 +1250,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 5281481346895651766, guid: 2b4bb5222d3678543801756729237c4c,
+        type: 3}
+      propertyPath: m_Name
+      value: Indes Inter Walls (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281481346895651766, guid: 2b4bb5222d3678543801756729237c4c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 2700293259965038361, guid: 2b4bb5222d3678543801756729237c4c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1161,11 +1315,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5281481346895651766, guid: 2b4bb5222d3678543801756729237c4c,
-        type: 3}
-      propertyPath: m_Name
-      value: Indes Inter Walls (6)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b4bb5222d3678543801756729237c4c, type: 3}
 --- !u!4 &327164595 stripped
@@ -1181,6 +1330,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1241,11 +1405,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (2)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -1300,6 +1459,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Border Wall (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689063, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}
@@ -1376,6 +1540,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Border Wall (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689063, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1446,6 +1615,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1506,11 +1690,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (32)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -1565,6 +1744,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Border Wall (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689063, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}
@@ -1641,6 +1825,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Border Wall (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689063, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1715,6 +1904,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Border Wall (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689063, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}
@@ -1791,6 +1985,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Border Wall (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689063, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1861,6 +2060,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1921,11 +2135,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (15)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -1976,6 +2185,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2036,11 +2260,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (27)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -2091,6 +2310,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2151,11 +2385,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (35)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -2206,6 +2435,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2266,11 +2510,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (34)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -2325,6 +2564,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Border Wall (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689063, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}
@@ -2396,6 +2640,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2456,11 +2715,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (11)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -2511,6 +2765,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2571,11 +2840,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (47)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -2626,6 +2890,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2685,11 +2964,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsTrigger
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (18)
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -2793,6 +3067,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2853,11 +3142,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (13)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -2912,6 +3196,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Border Wall (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689063, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}
@@ -2988,6 +3277,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Border Wall (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689063, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3058,6 +3352,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3118,11 +3427,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (6)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -3173,6 +3477,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3233,11 +3552,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (31)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -3288,6 +3602,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3348,11 +3677,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (4)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -3396,6 +3720,75 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1001 &758272664
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 9058635274427181303, guid: 28fc692b85104f24f83e30ce0acce749,
+        type: 3}
+      propertyPath: m_Name
+      value: FireBonus
+      objectReference: {fileID: 0}
+    - target: {fileID: 9058635274427181298, guid: 28fc692b85104f24f83e30ce0acce749,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.387552
+      objectReference: {fileID: 0}
+    - target: {fileID: 9058635274427181298, guid: 28fc692b85104f24f83e30ce0acce749,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 9058635274427181298, guid: 28fc692b85104f24f83e30ce0acce749,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 9058635274427181298, guid: 28fc692b85104f24f83e30ce0acce749,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9058635274427181298, guid: 28fc692b85104f24f83e30ce0acce749,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9058635274427181298, guid: 28fc692b85104f24f83e30ce0acce749,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9058635274427181298, guid: 28fc692b85104f24f83e30ce0acce749,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9058635274427181298, guid: 28fc692b85104f24f83e30ce0acce749,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9058635274427181298, guid: 28fc692b85104f24f83e30ce0acce749,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9058635274427181298, guid: 28fc692b85104f24f83e30ce0acce749,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9058635274427181298, guid: 28fc692b85104f24f83e30ce0acce749,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 28fc692b85104f24f83e30ce0acce749, type: 3}
 --- !u!1001 &764171549
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3407,6 +3800,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Border Wall (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689063, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}
@@ -3483,6 +3881,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Border Wall (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689063, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3557,6 +3960,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Border Wall (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689063, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}
@@ -3668,6 +4076,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3728,11 +4151,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (43)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -3783,6 +4201,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 5281481346895651766, guid: 2b4bb5222d3678543801756729237c4c,
+        type: 3}
+      propertyPath: m_Name
+      value: Indes Inter Walls (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281481346895651766, guid: 2b4bb5222d3678543801756729237c4c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 2700293259965038361, guid: 2b4bb5222d3678543801756729237c4c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3837,11 +4265,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5281481346895651766, guid: 2b4bb5222d3678543801756729237c4c,
-        type: 3}
-      propertyPath: m_Name
-      value: Indes Inter Walls (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b4bb5222d3678543801756729237c4c, type: 3}
@@ -3932,7 +4355,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 80, y: 0, z: 0}
 --- !u!114 &827911471
 MonoBehaviour:
@@ -3955,6 +4378,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4015,11 +4453,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (14)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -4070,6 +4503,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4130,11 +4578,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (49)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -4149,6 +4592,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Border Wall (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689063, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}
@@ -4220,6 +4668,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4279,11 +4742,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsTrigger
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (23)
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -4409,6 +4867,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Border Wall (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689063, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4479,6 +4942,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4539,11 +5017,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (17)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -4594,6 +5067,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4654,11 +5142,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (22)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -4713,6 +5196,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Border Wall (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689063, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}
@@ -4784,6 +5272,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4844,11 +5347,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (1)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -4903,6 +5401,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Border Wall (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689063, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}
@@ -4974,6 +5477,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5033,11 +5551,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsTrigger
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (33)
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -5172,7 +5685,7 @@ Transform:
   m_LocalScale: {x: 6, y: 6, z: 6}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1057678545
 PrefabInstance:
@@ -5181,6 +5694,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5241,11 +5769,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (45)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -5296,20 +5819,45 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1798167983288126840, guid: 7c5c56b86fd4f5d4d9a6950ec74d4639,
+        type: 3}
+      propertyPath: m_Name
+      value: bomberboy
+      objectReference: {fileID: 0}
     - target: {fileID: 1798167982356426953, guid: 7c5c56b86fd4f5d4d9a6950ec74d4639,
         type: 3}
       propertyPath: up
-      value: 63
+      value: 122
       objectReference: {fileID: 0}
     - target: {fileID: 1798167982356426953, guid: 7c5c56b86fd4f5d4d9a6950ec74d4639,
+        type: 3}
+      propertyPath: player
+      value: bomberboy1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1798167982356426953, guid: 7c5c56b86fd4f5d4d9a6950ec74d4639,
+        type: 3}
+      propertyPath: down
+      value: 115
+      objectReference: {fileID: 0}
+    - target: {fileID: 1798167982356426953, guid: 7c5c56b86fd4f5d4d9a6950ec74d4639,
+        type: 3}
+      propertyPath: left
+      value: 113
+      objectReference: {fileID: 0}
+    - target: {fileID: 1798167982356426953, guid: 7c5c56b86fd4f5d4d9a6950ec74d4639,
+        type: 3}
+      propertyPath: right
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1798167982356426958, guid: 7c5c56b86fd4f5d4d9a6950ec74d4639,
         type: 3}
       propertyPath: player
       value: bomberboy1
       objectReference: {fileID: 0}
     - target: {fileID: 1798167982356426958, guid: 7c5c56b86fd4f5d4d9a6950ec74d4639,
         type: 3}
-      propertyPath: player
-      value: bomberboy1
+      propertyPath: putBomb
+      value: 116
       objectReference: {fileID: 0}
     - target: {fileID: 1798167983287767390, guid: 7c5c56b86fd4f5d4d9a6950ec74d4639,
         type: 3}
@@ -5349,7 +5897,7 @@ PrefabInstance:
     - target: {fileID: 1798167983287767390, guid: 7c5c56b86fd4f5d4d9a6950ec74d4639,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1798167983287767390, guid: 7c5c56b86fd4f5d4d9a6950ec74d4639,
         type: 3}
@@ -5366,11 +5914,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1798167983288126840, guid: 7c5c56b86fd4f5d4d9a6950ec74d4639,
-        type: 3}
-      propertyPath: m_Name
-      value: bomberboy
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c5c56b86fd4f5d4d9a6950ec74d4639, type: 3}
 --- !u!1001 &1093468074
@@ -5380,6 +5923,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5440,11 +5998,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (37)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -5495,6 +6048,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5555,11 +6123,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (38)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -5610,6 +6173,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 5281481346895651766, guid: 2b4bb5222d3678543801756729237c4c,
+        type: 3}
+      propertyPath: m_Name
+      value: Indes Inter Walls (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281481346895651766, guid: 2b4bb5222d3678543801756729237c4c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 2700293259965038361, guid: 2b4bb5222d3678543801756729237c4c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5665,11 +6238,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5281481346895651766, guid: 2b4bb5222d3678543801756729237c4c,
-        type: 3}
-      propertyPath: m_Name
-      value: Indes Inter Walls (4)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b4bb5222d3678543801756729237c4c, type: 3}
 --- !u!4 &1107436667 stripped
@@ -5689,6 +6257,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Border Wall (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689063, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}
@@ -5760,6 +6333,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5820,11 +6408,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (40)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -5875,6 +6458,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5935,11 +6533,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (44)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -5990,6 +6583,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6050,11 +6658,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (24)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -6109,6 +6712,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Border Wall (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689063, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}
@@ -6180,6 +6788,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6240,11 +6863,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (26)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -6288,6 +6906,75 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1001 &1206981402
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2448088572957852617, guid: 603638750af8d98469ce9d594b501d87,
+        type: 3}
+      propertyPath: m_Name
+      value: BombeMalus
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448088572957852628, guid: 603638750af8d98469ce9d594b501d87,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.3500476
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448088572957852628, guid: 603638750af8d98469ce9d594b501d87,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448088572957852628, guid: 603638750af8d98469ce9d594b501d87,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448088572957852628, guid: 603638750af8d98469ce9d594b501d87,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448088572957852628, guid: 603638750af8d98469ce9d594b501d87,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448088572957852628, guid: 603638750af8d98469ce9d594b501d87,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448088572957852628, guid: 603638750af8d98469ce9d594b501d87,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448088572957852628, guid: 603638750af8d98469ce9d594b501d87,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448088572957852628, guid: 603638750af8d98469ce9d594b501d87,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448088572957852628, guid: 603638750af8d98469ce9d594b501d87,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448088572957852628, guid: 603638750af8d98469ce9d594b501d87,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 603638750af8d98469ce9d594b501d87, type: 3}
 --- !u!1001 &1220557752
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6295,6 +6982,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6355,11 +7057,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (12)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -6414,6 +7111,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Border Wall (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689063, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}
@@ -6490,6 +7192,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Border Wall (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689063, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6564,6 +7271,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Border Wall (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689063, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}
@@ -6675,6 +7387,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 5281481346895651766, guid: 2b4bb5222d3678543801756729237c4c,
+        type: 3}
+      propertyPath: m_Name
+      value: Indes Inter Walls (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281481346895651766, guid: 2b4bb5222d3678543801756729237c4c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 2700293259965038361, guid: 2b4bb5222d3678543801756729237c4c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6730,11 +7452,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5281481346895651766, guid: 2b4bb5222d3678543801756729237c4c,
-        type: 3}
-      propertyPath: m_Name
-      value: Indes Inter Walls (5)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b4bb5222d3678543801756729237c4c, type: 3}
 --- !u!4 &1341726431 stripped
@@ -6750,6 +7467,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6810,11 +7542,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (3)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -6869,6 +7596,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Border Wall (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689063, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}
@@ -6945,6 +7677,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Border Wall (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689063, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7015,6 +7752,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 5281481346895651766, guid: 2b4bb5222d3678543801756729237c4c,
+        type: 3}
+      propertyPath: m_Name
+      value: Indes Inter Walls (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281481346895651766, guid: 2b4bb5222d3678543801756729237c4c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 2700293259965038361, guid: 2b4bb5222d3678543801756729237c4c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7070,11 +7817,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5281481346895651766, guid: 2b4bb5222d3678543801756729237c4c,
-        type: 3}
-      propertyPath: m_Name
-      value: Indes Inter Walls (7)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b4bb5222d3678543801756729237c4c, type: 3}
 --- !u!4 &1416008495 stripped
@@ -7090,6 +7832,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7150,11 +7907,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (8)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -7205,20 +7957,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
-    - target: {fileID: 54927853208484100, guid: 69bc564d490df364696a7246804dd17b,
-        type: 3}
-      propertyPath: m_IsKinematic
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1132274869587689058, guid: 69bc564d490df364696a7246804dd17b,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}
       propertyPath: m_Name
       value: Border Wall (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689063, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}
@@ -7275,6 +8022,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 54927853208484100, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689058, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69bc564d490df364696a7246804dd17b, type: 3}
 --- !u!4 &1434094757 stripped
@@ -7294,6 +8051,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Border Wall (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689063, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}
@@ -7370,6 +8132,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Border Wall (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689063, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7440,6 +8207,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7500,11 +8282,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (41)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -7555,6 +8332,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 5281481346895651766, guid: 2b4bb5222d3678543801756729237c4c,
+        type: 3}
+      propertyPath: m_Name
+      value: Indes Inter Walls (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281481346895651766, guid: 2b4bb5222d3678543801756729237c4c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 2700293259965038361, guid: 2b4bb5222d3678543801756729237c4c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7610,11 +8397,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5281481346895651766, guid: 2b4bb5222d3678543801756729237c4c,
-        type: 3}
-      propertyPath: m_Name
-      value: Indes Inter Walls (3)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b4bb5222d3678543801756729237c4c, type: 3}
 --- !u!4 &1523343395 stripped
@@ -7630,6 +8412,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7690,11 +8487,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (29)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -7749,6 +8541,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Border Wall (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689063, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}
@@ -7877,7 +8674,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1570153854 stripped
 GameObject:
@@ -7926,6 +8723,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7986,11 +8798,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (5)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -8041,6 +8848,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8101,11 +8923,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (7)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -8156,6 +8973,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8216,11 +9048,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (19)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -8271,6 +9098,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8331,11 +9173,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (10)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -8390,6 +9227,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Border Wall (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689063, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}
@@ -8466,6 +9308,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Border Wall (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689063, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8540,6 +9387,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Border Wall (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689063, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}
@@ -8616,6 +9468,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Border Wall (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689063, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8671,6 +9528,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689061, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69bc564d490df364696a7246804dd17b, type: 3}
 --- !u!4 &1895188451 stripped
@@ -8686,6 +9548,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 5281481346895651766, guid: 2b4bb5222d3678543801756729237c4c,
+        type: 3}
+      propertyPath: m_Name
+      value: Indes Inter Walls (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281481346895651766, guid: 2b4bb5222d3678543801756729237c4c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 2700293259965038361, guid: 2b4bb5222d3678543801756729237c4c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8741,11 +9613,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5281481346895651766, guid: 2b4bb5222d3678543801756729237c4c,
-        type: 3}
-      propertyPath: m_Name
-      value: Indes Inter Walls (2)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b4bb5222d3678543801756729237c4c, type: 3}
 --- !u!4 &1904782746 stripped
@@ -8761,6 +9628,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 100034, guid: 0e92e23b4e259334caeb36acd599f0ac, type: 3}
+      propertyPath: m_Name
+      value: blackHole1.fbx
+      objectReference: {fileID: 0}
+    - target: {fileID: 100034, guid: 0e92e23b4e259334caeb36acd599f0ac, type: 3}
+      propertyPath: m_TagString
+      value: blach hole
+      objectReference: {fileID: 0}
+    - target: {fileID: 100034, guid: 0e92e23b4e259334caeb36acd599f0ac, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 0e92e23b4e259334caeb36acd599f0ac, type: 3}
       propertyPath: m_Layer
       value: 8
@@ -8829,18 +9708,6 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
-    - target: {fileID: 100034, guid: 0e92e23b4e259334caeb36acd599f0ac, type: 3}
-      propertyPath: m_Name
-      value: blackHole1.fbx
-      objectReference: {fileID: 0}
-    - target: {fileID: 100034, guid: 0e92e23b4e259334caeb36acd599f0ac, type: 3}
-      propertyPath: m_TagString
-      value: blach hole
-      objectReference: {fileID: 0}
-    - target: {fileID: 100034, guid: 0e92e23b4e259334caeb36acd599f0ac, type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 400034, guid: 0e92e23b4e259334caeb36acd599f0ac, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.46
@@ -8871,7 +9738,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400034, guid: 0e92e23b4e259334caeb36acd599f0ac, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400034, guid: 0e92e23b4e259334caeb36acd599f0ac, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -8910,6 +9777,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8970,11 +9852,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (39)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -9029,6 +9906,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Border Wall (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689063, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}
@@ -9105,7 +9987,7 @@ GameObject:
   - component: {fileID: 2002255347}
   - component: {fileID: 2002255346}
   - component: {fileID: 2002255345}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9280,7 +10162,7 @@ Transform:
   - {fileID: 1416008495}
   - {fileID: 2141499028}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2012182545
 PrefabInstance:
@@ -9293,6 +10175,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Border Wall (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689063, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}
@@ -9364,6 +10251,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9424,11 +10326,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (36)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -9479,6 +10376,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9539,11 +10451,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (16)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -9594,6 +10501,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9653,11 +10575,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsTrigger
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (21)
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -9766,6 +10683,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Border Wall (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689063, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9836,6 +10758,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Name
+      value: Dest Wall (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
+        type: 3}
+      propertyPath: m_TagString
+      value: destroyable
+      objectReference: {fileID: 0}
     - target: {fileID: 6887361270546676789, guid: 075b00123c3d02f4d94e081aa9f37738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9896,11 +10833,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6887361270546676793, guid: 075b00123c3d02f4d94e081aa9f37738,
-        type: 3}
-      propertyPath: m_Name
-      value: Dest Wall (20)
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114997800745920144, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 075b00123c3d02f4d94e081aa9f37738, type: 3}
@@ -9955,6 +10887,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Border Wall (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689063, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}
@@ -10031,6 +10968,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Border Wall (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689063, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10105,6 +11047,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Border Wall (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689063, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}
@@ -10181,6 +11128,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Border Wall (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689063, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10251,6 +11203,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2002255348}
     m_Modifications:
+    - target: {fileID: 5281481346895651766, guid: 2b4bb5222d3678543801756729237c4c,
+        type: 3}
+      propertyPath: m_Name
+      value: Indes Inter Walls (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281481346895651766, guid: 2b4bb5222d3678543801756729237c4c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 2700293259965038361, guid: 2b4bb5222d3678543801756729237c4c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10306,11 +11268,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5281481346895651766, guid: 2b4bb5222d3678543801756729237c4c,
-        type: 3}
-      propertyPath: m_Name
-      value: Indes Inter Walls (8)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b4bb5222d3678543801756729237c4c, type: 3}
 --- !u!4 &2141499028 stripped
@@ -10330,6 +11287,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Border Wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132274869587689059, guid: 69bc564d490df364696a7246804dd17b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1132274869587689063, guid: 69bc564d490df364696a7246804dd17b,
         type: 3}

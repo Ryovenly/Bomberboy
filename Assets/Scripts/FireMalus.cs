@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class FireMalus : MonoBehaviour
 {
-    public Rigidbody Player;
     private int fireBonus;
 
     // Start is called before the first frame update
@@ -22,7 +21,10 @@ public class FireMalus : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        fireBonus = Player.GetComponent<Player>().firePower;
-        Player.GetComponent<Player>().firePower = fireBonus - 1;
+        if (other.gameObject.CompareTag("bomberboy"))
+        {
+            other.GetComponent<Stats>().firePower -= 1;
+            Destroy(gameObject);
+        }
     }
 }

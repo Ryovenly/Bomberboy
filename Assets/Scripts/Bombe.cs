@@ -6,7 +6,6 @@ using UnityEngine;
 
 public class Bombe : MonoBehaviour
 {
-    public GameObject Player;
     public GameObject explosionPrefab;
 
     public LayerMask levelMask;
@@ -25,7 +24,7 @@ public class Bombe : MonoBehaviour
 
     private void Update()
     {
-        firePower = Player.GetComponent<Player>().firePower;
+
     }
 
     void Explode()
@@ -60,7 +59,7 @@ public class Bombe : MonoBehaviour
         for (int i = 1; i < firePower; i++)
         { //  Le raycast va essayer de rentrer en contact avec la distance i qui sera au maximum à firePower qui sera la limite du raycast et de la puissance de feu
             RaycastHit hit;
-
+            Ray ray = new Ray(transform.position, transform.forward);
             Physics.Raycast(transform.position + new Vector3(0, .5f, 0), direction, out hit, i, levelMask); //  Fonction du Raycast, il ne pourra toucher que le LayerMask levelMask (Wall)
 
             if (!hit.collider)
@@ -69,6 +68,11 @@ public class Bombe : MonoBehaviour
             }
             else
             { //  On touche un mur donc l'explosion s'arrête
+                Debug.DrawLine(ray.origin, hit.point, Color.red);
+                if (hit.collider.gameObject.CompareTag("destroyable"))
+                {
+                    Destroy(hit.collider.gameObject);
+                }
                 break;
             }
 

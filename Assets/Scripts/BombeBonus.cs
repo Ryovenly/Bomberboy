@@ -20,7 +20,10 @@ public class BombeBonus : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        nbBombeBonus = other.GetComponent<Player>().nbBombes;
-        other.GetComponent<Player>().nbBombes = nbBombeBonus + 1;
+        if (other.gameObject.CompareTag("bomberboy"))
+        {
+            other.GetComponent<Stats>().bomb += 1;
+            Destroy(gameObject);
+        }
     }
 }

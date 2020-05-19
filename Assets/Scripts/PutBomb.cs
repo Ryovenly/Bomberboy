@@ -12,8 +12,9 @@ public class PutBomb : MonoBehaviour
 
     public Rigidbody Bombe;
     public Transform origine;
-    public int nbBombes = 2;
+    public int nbBombes;
     private int Bombes;
+    private int firePower;
     private Animator Anim;
     public string player;
     private string controlPutBomb;
@@ -30,7 +31,10 @@ public class PutBomb : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
+        firePower = gameObject.GetComponent<Stats>().firePower;
+        nbBombes = gameObject.GetComponent<Stats>().bomb;
+
         Bombes = GameObject.FindGameObjectsWithTag("bombe").Length;
 
         if (Anim.GetBool("puttingBomb"))

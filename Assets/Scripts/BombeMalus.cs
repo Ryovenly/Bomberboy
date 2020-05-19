@@ -21,8 +21,11 @@ public class BombeMalus : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        nbBombeMalus = other.GetComponent<Player>().nbBombes;
-        other.GetComponent<Player>().nbBombes = nbBombeMalus - 1;
-    }
+        if (other.gameObject.CompareTag("bomberboy"))
+        {
+            other.GetComponent<Stats>().bomb -= 1;
+            Destroy(gameObject);
+        }
+     }
 
 }
