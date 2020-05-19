@@ -10,6 +10,7 @@ public class Player : MonoBehaviour
     public Transform origine;
     public int nbBombes;
     private int Bombes;
+    public int firePower = 1;
     // Start is called before the first frame update
     void Start()
     {

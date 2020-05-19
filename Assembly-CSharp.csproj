@@ -60,9 +60,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Bombe.cs" />
-    <Compile Include="Assets\Destroy.cs" />
-    <Compile Include="Assets\Player.cs" />
+    <Compile Include="Assets\InstanciateObjects.cs" />
+    <Compile Include="Assets\Scripts\Bombe.cs" />
+    <Compile Include="Assets\Scripts\BombeBonus.cs" />
+    <Compile Include="Assets\Scripts\BombeMalus.cs" />
+    <Compile Include="Assets\Scripts\Destroy.cs" />
+    <Compile Include="Assets\Scripts\DisableTrigger.cs" />
+    <Compile Include="Assets\Scripts\FireBonus.cs" />
+    <Compile Include="Assets\Scripts\FireMalus.cs" />
+    <Compile Include="Assets\Scripts\InstanciatePlayer.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/steve/Desktop/Projet_DevB2/Bomberman/Bomberboy/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
