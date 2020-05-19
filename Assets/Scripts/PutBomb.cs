@@ -49,14 +49,15 @@ public class PutBomb : MonoBehaviour
         // On pose la bombe
         if (controlPutBomb != null)
         {
-            if (Input.GetKey(controlPutBomb) && Bombes <= nbBombes)
+            if (Input.GetKeyDown(controlPutBomb) && Bombes <= nbBombes)
             {
                 Anim.SetBool("puttingBomb", true);
                 StartCoroutine(waitALittle(Anim.GetCurrentAnimatorStateInfo(0).length));
                 Rigidbody instance;
                 instance = Instantiate(Bombe, new Vector3(Mathf.RoundToInt(origine.position.x),
-                Bombe.transform.position.y, Mathf.RoundToInt(origine.position.z)),
+                Bombe.transform.position.y - 0.5f, Mathf.RoundToInt(origine.position.z)),
                 Bombe.transform.rotation) as Rigidbody;
+                instance.GetComponent<Bombe>().firePower = firePower;
             }
         }
     }
