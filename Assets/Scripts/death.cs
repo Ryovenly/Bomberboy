@@ -7,6 +7,10 @@ public class death : MonoBehaviour
 {
     private Animator Anim;
     public string LevelToLoad;
+    public string playerName;
+    public WinManager winManager;
+
+
     void Start()
     {
         Anim = GetComponent<Animator>();
@@ -15,6 +19,7 @@ public class death : MonoBehaviour
     {
         if (collider.gameObject.tag == "Explosion" || collider.gameObject.tag == "Fatal")
         {
+            winManager.PlayerDied(playerName);
             Anim.SetBool("diying", true);
             StartCoroutine(StartVictory());
         }
@@ -22,7 +27,7 @@ public class death : MonoBehaviour
 
     IEnumerator StartVictory()
     {
-        yield return new WaitForSeconds(10f);
+        yield return new WaitForSeconds(5f);
         SceneManager.LoadScene(LevelToLoad);
     }
 

@@ -24,7 +24,7 @@ public class PutBomb : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Anim = GetComponent<Animator>();
+        //Anim = GetComponent<Animator>();
         StartCoroutine(GetData());
     }
 
@@ -37,22 +37,22 @@ public class PutBomb : MonoBehaviour
 
         Bombes = GameObject.FindGameObjectsWithTag("bombe").Length;
 
-        if (Anim.GetBool("puttingBomb"))
-        {
-            StartCoroutine(waitALittle(Anim.GetCurrentAnimatorStateInfo(0).length));
-        }
-        else
-        {
-            Anim.SetBool("puttingBomb", false);
-        }
+        //if (Anim.GetBool("puttingBomb"))
+        //{
+        //    StartCoroutine(waitALittle(Anim.GetCurrentAnimatorStateInfo(0).length));
+        //}
+        //else
+        //{
+        //    Anim.SetBool("puttingBomb", false);
+        //}
 
         // On pose la bombe
         if (controlPutBomb != null)
         {
             if (Input.GetKeyDown(controlPutBomb) && Bombes <= nbBombes)
             {
-                Anim.SetBool("puttingBomb", true);
-                StartCoroutine(waitALittle(Anim.GetCurrentAnimatorStateInfo(0).length));
+                //Anim.SetBool("puttingBomb", true);
+                //StartCoroutine(waitALittle(Anim.GetCurrentAnimatorStateInfo(0).length));
                 Rigidbody instance;
                 instance = Instantiate(Bombe, new Vector3(Mathf.RoundToInt(origine.position.x),
                 Bombe.transform.position.y - 0.5f, Mathf.RoundToInt(origine.position.z)),
@@ -63,7 +63,7 @@ public class PutBomb : MonoBehaviour
     }
     IEnumerator GetData()
     {
-        UnityWebRequest uwr = UnityWebRequest.Get("http://localhost:8000/getData?player=" + player);
+        UnityWebRequest uwr = UnityWebRequest.Get("http://localhost:8001/getData?player=" + player);
         yield return uwr.SendWebRequest();
 
         if (uwr.isNetworkError || uwr.isHttpError)
@@ -80,9 +80,9 @@ public class PutBomb : MonoBehaviour
         }
     }
 
-    IEnumerator waitALittle(float time)
-    {
-        yield return new WaitForSecondsRealtime(time);
-        Anim.SetBool("puttingBomb", false);
-    }
+    //IEnumerator waitALittle(float time)
+    //{
+    //    yield return new WaitForSecondsRealtime(time);
+    //    Anim.SetBool("puttingBomb", false);
+    //}
 }

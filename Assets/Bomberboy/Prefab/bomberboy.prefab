@@ -2882,6 +2882,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0}
   playerData: []
   player: 
+  speed: 5
 --- !u!114 &1798167982356426958
 MonoBehaviour:
   m_ObjectHideFlags: 0

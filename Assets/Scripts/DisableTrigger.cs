@@ -10,7 +10,7 @@ public class DisableTrigger : MonoBehaviour
 
         public void OnTriggerExit(Collider other)
         {
-            if (other.gameObject.CompareTag("Player"))
+            if (other.gameObject.CompareTag("bomberboy"))
             { 
                 GetComponent<Collider>().isTrigger = false; // Disable the trigger
             }

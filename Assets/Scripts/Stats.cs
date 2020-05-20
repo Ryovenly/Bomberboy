@@ -6,6 +6,7 @@ public class Stats : MonoBehaviour
 {
     public int firePower = 2;
     public int bomb = 2;
+    public string Player;
     // Start is called before the first frame update
     void Start()
     {

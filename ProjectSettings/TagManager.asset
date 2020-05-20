@@ -10,6 +10,7 @@ TagManager:
   - bomberboy
   - blach hole
   - destroyable
+  - fallen
   layers:
   - Default
   - TransparentFX

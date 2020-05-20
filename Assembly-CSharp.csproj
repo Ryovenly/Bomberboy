@@ -60,6 +60,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\EasterEgg.cs" />
     <Compile Include="Assets\InstanciateObjects.cs" />
     <Compile Include="Assets\Scripts\blocDestroy.cs" />
     <Compile Include="Assets\Scripts\Bombe.cs" />
@@ -92,6 +93,8 @@
     <Compile Include="Assets\Scripts\PutBomb.cs" />
     <Compile Include="Assets\Scripts\Stats.cs" />
     <Compile Include="Assets\Scripts\TelepBH.cs" />
+    <Compile Include="Assets\WinManager.cs" />
+    <Compile Include="Assets\WinText.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/steve/Desktop/Projet_DevB2/Bomberman/Bomberboy/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

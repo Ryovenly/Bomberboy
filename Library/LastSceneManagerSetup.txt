@@ -1,22 +1,31 @@
 sceneSetups:
-- path: Assets/Scenes/ControlsBomberboy1.unity
+- path: Assets/Scenes/Principal Menu.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Scenes/Victory.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Scenes/MenuAccueil.unity
   isLoaded: 0
   isActive: 0
 - path: Assets/Scenes/Map Choice.unity
   isLoaded: 0
   isActive: 0
-- path: Assets/Scenes/Menu Pause.unity
-  isLoaded: 0
-  isActive: 0
-- path: Assets/Scenes/Principal Menu.unity
+- path: Assets/Scenes/IceMap.unity
   isLoaded: 0
   isActive: 0
 - path: Assets/Scenes/DesertMap.unity
-  isLoaded: 0
-  isActive: 0
-- path: Assets/Scenes/IceMap.unity
   isLoaded: 1
   isActive: 1
-- path: Assets/Scenes/Victory.unity
+- path: Assets/Scenes/ControlsBomberboy1.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Scenes/ControlsBomberboy2.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Scenes/Menu Pause.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Scenes/LavaMap.unity
   isLoaded: 0
   isActive: 0

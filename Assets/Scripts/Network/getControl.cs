@@ -23,7 +23,7 @@ public class getControl : MonoBehaviour
 
     IEnumerator GetData()
     {
-        UnityWebRequest uwr = UnityWebRequest.Get("http://localhost:8000/getData?player=" + player.text);
+        UnityWebRequest uwr = UnityWebRequest.Get("http://localhost:8001/getData?player=" + player.text);
         yield return uwr.SendWebRequest();
 
         Debug.Log(player.text);

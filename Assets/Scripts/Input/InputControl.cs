@@ -25,7 +25,7 @@ public class InputControl : MonoBehaviour
         Debug.Log((upText.text).ToLower());
         WWWForm form = new WWWForm();
 
-        UnityWebRequest www = UnityWebRequest.Post("http://localhost:8000/sendData?player=" + (player.text).ToLower() + "&upControl=" + (upText.text).ToLower() + "&downControl=" + (downText.text).ToLower() + "&leftControl=" + (leftText.text).ToLower() + "&rightControl=" + (rightText.text).ToLower() + "&dropControl=" + (dropBombText.text).ToLower(), form);
+        UnityWebRequest www = UnityWebRequest.Post("http://localhost:8001/sendData?player=" + (player.text).ToLower() + "&upControl=" + (upText.text).ToLower() + "&downControl=" + (downText.text).ToLower() + "&leftControl=" + (leftText.text).ToLower() + "&rightControl=" + (rightText.text).ToLower() + "&dropControl=" + (dropBombText.text).ToLower(), form);
         yield return www.SendWebRequest();
 
         if (www.isNetworkError || www.isHttpError)

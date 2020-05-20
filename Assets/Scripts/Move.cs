@@ -58,7 +58,7 @@ public class Move : MonoBehaviour
 
     IEnumerator GetData()
     {
-        UnityWebRequest uwr = UnityWebRequest.Get("http://localhost:8000/getData?player=" + player);
+        UnityWebRequest uwr = UnityWebRequest.Get("http://localhost:8001/getData?player=" + player);
         yield return uwr.SendWebRequest();
 
         if (uwr.isNetworkError || uwr.isHttpError)
