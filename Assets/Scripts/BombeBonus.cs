@@ -25,5 +25,10 @@ public class BombeBonus : MonoBehaviour
             other.GetComponent<Stats>().bomb += 1;
             Destroy(gameObject);
         }
+
+        if (other.gameObject.tag == "Explosion" || other.gameObject.tag == "Fatal" || other.gameObject.tag == "fallen")
+        {
+            Destroy(gameObject);
+        }
     }
 }
