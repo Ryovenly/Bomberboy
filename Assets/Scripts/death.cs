@@ -17,7 +17,7 @@ public class death : MonoBehaviour
     }
         private void OnTriggerEnter(Collider collider)
     {
-        if (collider.gameObject.tag == "Explosion" || collider.gameObject.tag == "Fatal")
+        if (collider.gameObject.tag == "Explosion" || collider.gameObject.tag == "Fatal" || collider.gameObject.tag == "fallen")
         {
             winManager.PlayerDied(playerName);
             Anim.SetBool("diying", true);

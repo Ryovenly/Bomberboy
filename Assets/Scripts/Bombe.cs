@@ -67,11 +67,11 @@ public class Bombe : MonoBehaviour
                 Instantiate(explosionPrefab, transform.position + (i * direction), explosionPrefab.transform.rotation);
             }
             else
-            { //  On touche un mur donc l'explosion s'arrête
+            { //  On touche un mur donc l'explosion s'arrête et on détruit le mur si il est détruisable
                 Debug.DrawLine(ray.origin, hit.point, Color.red);
                 if (hit.collider.gameObject.CompareTag("destroyable"))
                 {
-                    Destroy(hit.collider.gameObject);
+                    hit.collider.gameObject.GetComponent<blocDestroy>().isDestroy = true;
                 }
                 break;
             }

@@ -11,6 +11,7 @@ TagManager:
   - blach hole
   - destroyable
   - fallen
+  - ground
   layers:
   - Default
   - TransparentFX

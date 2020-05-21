@@ -5,23 +5,39 @@ using UnityEngine;
 public class blocDestroy : MonoBehaviour
 {
     // private int randomNumber = Random.Range(0, 2);
+    public bool isDestroy = false;
+    public List<Rigidbody> bonusMalus = new List<Rigidbody>();
+    private Rigidbody rb;
 
     void Start()
     {
-
+        rb = GetComponent<Rigidbody>();
     }
 
-    private void OnTriggerEnter(Collider collider)
+
+    public void GenerateBonusAndMalus()
     {
-        if (collider.gameObject.tag == "Explosion")
+        for (int i = 0; i < bonusMalus.Count; i++)
         {
+            Rigidbody temp = bonusMalus[i];
+            int randomIndex = Random.Range(i, bonusMalus.Count);
+            bonusMalus[i] = bonusMalus[randomIndex];
+            bonusMalus[randomIndex] = temp;
+        }
+
+            Rigidbody instance;
+            instance = Instantiate(bonusMalus[1], rb.position, rb.rotation) as Rigidbody;
+        }
+
+    private void Update()
+    {
+        Debug.Log("is destroy" + isDestroy);
+        if(isDestroy == true)
+        {
+            Debug.Log("c détruit");
             GenerateBonusAndMalus();
             Destroy(gameObject);
         }
     }
 
-    public void GenerateBonusAndMalus()
-    {
-        
-    }
 }
