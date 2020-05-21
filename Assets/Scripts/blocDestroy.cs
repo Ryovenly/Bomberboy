@@ -31,7 +31,6 @@ public class blocDestroy : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log("is destroy" + isDestroy);
         if(isDestroy == true)
         {
             Debug.Log("c détruit");
