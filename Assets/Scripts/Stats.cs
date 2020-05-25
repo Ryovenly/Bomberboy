@@ -21,5 +21,20 @@ public class Stats : MonoBehaviour
             firePower++;
         }
         Debug.Log("feu stat" + firePower);
+
+        MinimumStats();
+    }
+
+    private void MinimumStats()
+    {
+        if (firePower < 3)
+        {
+            firePower = 3;
+        }
+
+        if (bomb < 1)
+        {
+            bomb = 1;
+        }
     }
 }

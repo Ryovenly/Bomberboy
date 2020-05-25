@@ -19,9 +19,13 @@ public class TelepBH : MonoBehaviour
 
     public void OnTriggerEnter(Collider collider)
     {
+        if (collider.CompareTag("bomberboy"))
+        {
             scaleObjetTouch = collider.transform.localScale;
             positionObjetTouch = collider.transform.localPosition;
             StartCoroutine(teleport(collider.transform, sizeChangeSpeed));
+        }
+
     }
 
     IEnumerator teleport(Transform target,float changeSpeed)
