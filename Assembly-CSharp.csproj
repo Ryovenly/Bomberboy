@@ -65,6 +65,8 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\blocDestroy.cs" />
     <Compile Include="Assets\Scripts\Bombe.cs" />
+    <Compile Include="Assets\Scripts\BombeBonus.cs" />
+    <Compile Include="Assets\Scripts\BombeMalus.cs" />
     <Compile Include="Assets\Scripts\BonusMalus\Bonus.cs" />
     <Compile Include="Assets\Scripts\BonusMalus\Bonus\BombeRange.cs" />
     <Compile Include="Assets\Scripts\BonusMalus\Bonus\BombNumber.cs" />
@@ -73,18 +75,26 @@
     <Compile Include="Assets\Scripts\ChangeScene.cs" />
     <Compile Include="Assets\Scripts\death.cs" />
     <Compile Include="Assets\Scripts\Destroy.cs" />
+    <Compile Include="Assets\Scripts\DisableTrigger.cs" />
     <Compile Include="Assets\Scripts\ExitGame.cs" />
+    <Compile Include="Assets\Scripts\FireBonus.cs" />
+    <Compile Include="Assets\Scripts\FireMalus.cs" />
     <Compile Include="Assets\Scripts\Input\changeScenePlayer.cs" />
     <Compile Include="Assets\Scripts\Input\InputControl.cs" />
     <Compile Include="Assets\Scripts\Input\InputWrapper.cs" />
     <Compile Include="Assets\Scripts\Input\VirtualInput.cs" />
+    <Compile Include="Assets\Scripts\InstanciateObjects.cs" />
+    <Compile Include="Assets\Scripts\InstanciatePlayer.cs" />
     <Compile Include="Assets\Scripts\ModePause.cs" />
     <Compile Include="Assets\Scripts\Move.cs" />
     <Compile Include="Assets\Scripts\Network\connectionBdd.cs" />
     <Compile Include="Assets\Scripts\Network\getControl.cs" />
     <Compile Include="Assets\Scripts\Network\keys.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\PositionCamera.cs" />
     <Compile Include="Assets\Scripts\PutBomb.cs" />
+    <Compile Include="Assets\Scripts\ScriptMerge\DisableTrigger.cs" />
+    <Compile Include="Assets\Scripts\ScriptMerge\Stats.cs" />
     <Compile Include="Assets\Scripts\TelepBH.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/matth/OneDrive/Documents/GitHub/Bomberboy/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>

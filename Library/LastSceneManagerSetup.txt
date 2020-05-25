@@ -1,7 +1,7 @@
 sceneSetups:
 - path: Assets/Scenes/ControlsBomberboy1.unity
-  isLoaded: 1
-  isActive: 1
+  isLoaded: 0
+  isActive: 0
 - path: Assets/Scenes/Map Choice.unity
   isLoaded: 0
   isActive: 0
@@ -20,3 +20,6 @@ sceneSetups:
 - path: Assets/Scenes/Victory.unity
   isLoaded: 0
   isActive: 0
+- path: Assets/Scenes/LavaMap.unity
+  isLoaded: 1
+  isActive: 1
