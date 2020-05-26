@@ -9,6 +9,7 @@ public class death : MonoBehaviour
     public string LevelToLoad;
     public string playerName;
     public WinManager winManager;
+    private int dead = 0;
 
 
     void Start()
@@ -19,9 +20,14 @@ public class death : MonoBehaviour
     {
         if (collider.gameObject.tag == "Explosion" || collider.gameObject.tag == "Fatal" || collider.gameObject.tag == "fallen")
         {
-            winManager.PlayerDied(playerName);
-            Anim.SetBool("diying", true);
-            StartCoroutine(StartVictory());
+            dead++;
+            if (dead == 1)
+            {
+                winManager.PlayerDied(playerName);
+                Anim.SetBool("diying", true);
+                StartCoroutine(StartVictory());
+            }
+
         }
     }
 

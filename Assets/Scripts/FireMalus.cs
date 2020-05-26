@@ -26,5 +26,10 @@ public class FireMalus : MonoBehaviour
             other.GetComponent<Stats>().firePower -= 1;
             Destroy(gameObject);
         }
+
+        if (other.gameObject.tag == "Explosion" || other.gameObject.tag == "Fatal" || other.gameObject.tag == "fallen")
+        {
+            Destroy(gameObject);
+        }
     }
 }

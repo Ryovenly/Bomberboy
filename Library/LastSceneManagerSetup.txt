@@ -15,8 +15,8 @@ sceneSetups:
   isLoaded: 0
   isActive: 0
 - path: Assets/Scenes/DesertMap.unity
-  isLoaded: 1
-  isActive: 1
+  isLoaded: 0
+  isActive: 0
 - path: Assets/Scenes/ControlsBomberboy1.unity
   isLoaded: 0
   isActive: 0
@@ -27,5 +27,5 @@ sceneSetups:
   isLoaded: 0
   isActive: 0
 - path: Assets/Scenes/LavaMap.unity
-  isLoaded: 0
-  isActive: 0
+  isLoaded: 1
+  isActive: 1
