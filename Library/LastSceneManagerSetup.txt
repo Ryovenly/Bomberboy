@@ -18,14 +18,14 @@ sceneSetups:
   isLoaded: 0
   isActive: 0
 - path: Assets/Scenes/ControlsBomberboy1.unity
-  isLoaded: 0
-  isActive: 0
+  isLoaded: 1
+  isActive: 1
 - path: Assets/Scenes/ControlsBomberboy2.unity
-  isLoaded: 0
+  isLoaded: 1
   isActive: 0
 - path: Assets/Scenes/Menu Pause.unity
   isLoaded: 0
   isActive: 0
 - path: Assets/Scenes/LavaMap.unity
-  isLoaded: 1
-  isActive: 1
+  isLoaded: 0
+  isActive: 0
